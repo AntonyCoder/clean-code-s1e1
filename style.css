@@ -151,41 +151,32 @@ li>button.delete:hover {
   color: #cf2323;
 }
 
-button.delete,
-img {
+button.delete img {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete,
-img:hover {
+button.delete img:hover {
   transform: rotatez(0);
 }
 
 /* completed */
-ul#completed-tasks,
-label {
+ul#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* edit task */
-ul,
-li,
-input[type="text"] {
+ul li input[type="text"] {
   display: none;
 }
 
-ul,
-li.edit-mode,
-input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul,
-li.edit-mode,
-label {
+ul li.edit-mode label {
   display: none;
 }
